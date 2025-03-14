@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(330, 100%, 98%);
+  width: 1440px;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.white-container{
+  border: 1px solid white;
+  background-color: white;
+  width: 500px;
+  margin: auto auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.white-container img{
+  display: block;
+  height: 180px;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+header h1{
+  color:hsl(24, 5%, 18%);
+}

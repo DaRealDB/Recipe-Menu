@@ -13,7 +13,7 @@ body{
 .white-container{
   border: 1px solid white;
   background-color: white;
-  width: 500px;
+  width: 40em;
   margin: auto auto;
   padding: 30px;
   border-radius: 10px;
@@ -21,14 +21,54 @@ body{
 
 .white-container img{
   display: block;
-  height: 180px;
-  width: 400px;
+  height: 300px;
+  width: 600px;
   margin-right: auto;
   margin-left: auto;
-  border: 1px solid white;
+  padding-right: 30px;
   border-radius: 10px;
+
+}
+
+.intro p{
+  color:hsl(30, 10%, 34%);
+  font-family: "Outfit", serif;
+  font-size: 14px
 }
 
 header h1{
   color:hsl(24, 5%, 18%);
+  font-family: "Young serif", serif;
+  font-weight: 400px;
 }
+
+.rose-bg h3{
+color: hsl(332, 51%, 32%);
+margin-left: 10px;
+font-family: "Outfit",serif;
+font-size: 20px;
+
+}
+.rose-bg ul{
+  margin-right: auto;
+  margin-left: auto;
+}
+.rose-bg li{
+  padding: 5px;
+}
+.rose-bg{
+  background-color: hsl(324, 71%, 97%);
+  padding: 5px;
+  border-radius: 10px;
+  
+}
+
+.rose-bg span{
+  color: hsl(30, 10%, 34%);
+ font-weight: bold;
+ font-family: "Outfit", serif;
+}
+.rose-bg li{
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", serif;
+};

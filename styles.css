@@ -30,6 +30,101 @@ body{
 
 }
 
+/*Nutrition style */
+.nutrition h2{
+color: hsl(14, 45%, 36%);
+font-size: 30px;
+}
+
+.nutrients {
+  display: grid;
+  grid-template-columns: 80px 1fr 80px; /* This creates a 3-column layout */
+  padding: 8px 0;
+  align-items: center;
+}
+
+.nutrients p {
+  margin: 0;
+}
+
+.nutrients p:first-child {
+  font-weight: 500;
+  color: #000;
+  grid-column: 1;
+}
+
+.calories {
+  color: #8b4513; /* Brown color for the values */
+  grid-column: 2; /* This puts the values in the middle column */
+  text-align: center; /* Center-aligns the text within the column */
+}
+
+.divider {
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0;
+}
+
+
+
+
+
+  
+
+/*instruction style */
+.instructions h2{
+  color: hsl(14, 45%, 36%);
+  font-size: 30px;
+}
+
+.instructions li::marker{
+  color: hsl(14, 45%, 36%); 
+}
+
+.instructions li{
+  color:hsl(30, 10%, 34%);
+}
+
+.instructions span{
+  color: hsl(30, 10%, 34%);
+ font-weight: bold;
+ font-family: "Outfit", serif;
+}
+
+.instructions li{
+  padding: 8px;
+  color:hsl(30, 10%, 34%);
+  font-family: "Outfit", serif;
+  font-size: 14px;
+}
+
+/*Recipe Style*/
+.Recipe h2{
+  color: hsl(14, 45%, 36%);
+  margin-left: 14px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+.Recipe li{
+  padding: 8px;
+  color:hsl(30, 10%, 34%);
+  font-family: "Outfit", serif;
+}
+
+.Recipe li::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+/*divider*/
+.divider{
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: hsl(30, 2%, 82%);
+}
+
 .intro p{
   color:hsl(30, 10%, 34%);
   font-family: "Outfit", serif;
@@ -42,6 +137,7 @@ header h1{
   font-weight: 400px;
 }
 
+/*Preparation style */
 .rose-bg h3{
 color: hsl(332, 51%, 32%);
 margin-left: 10px;
@@ -72,3 +168,5 @@ font-size: 20px;
   color: hsl(30, 10%, 34%);
   font-family: "Outfit", serif;
 };
+
+
